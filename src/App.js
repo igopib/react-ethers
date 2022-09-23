@@ -1,13 +1,13 @@
 import "./App.css";
+import WalletConnect from "./WalletConnect.js";
 
 function App() {
   // Helper Functions
   async function connectWallet() {}
+
   return (
     <div className="App">
-      <h1>React Ethers</h1>
-      <label>Connect Wallet: </label>{" "}
-      <button onClick={() => connectWallet()}>Connect</button>
+      <WalletConnect />
     </div>
   );
 }

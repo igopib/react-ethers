@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import styles from "./Wallet.module.css";
 import { ethers } from "ethers";
+import { abi } from "./constants";
 
 const WalletConnect = () => {
   const [connButtonText, setConnButtonText] = useState("Connect");
